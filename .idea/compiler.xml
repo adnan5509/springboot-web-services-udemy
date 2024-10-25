@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="soap-course-management" />
+        <module name="Springboot-web-services-udemy" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Springboot-web-services-udemy" options="-parameters" />
       <module name="soap-course-management" options="-parameters" />
     </option>
   </component>
